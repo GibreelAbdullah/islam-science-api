@@ -1,0 +1,35 @@
+name: Update Hierarchy JSON
+
+on:
+  push:
+    branches: [ main, master ]
+    paths-ignore:
+      - 'hierarchy.json'  # Avoid triggering the workflow when only the JSON file changes
+
+jobs:
+  update-hierarchy:
+    runs-on: ubuntu-latest
+    
+    permissions:
+      contents: write  # Required for pushing changes back to the repository
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0  # Fetches all history so we can push back
+      
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+      
+      - name: Run hierarchy script
+        run: python hierarchy.py
+      
+      - name: Commit and push if changed
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add hierarchy.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Update hierarchy.json [skip ci]" && git push)
