@@ -27,13 +27,14 @@ jobs:
       - name: Install dependencies
         run: pip install bs4
       
-      - name: ls and cd
+      - name: Run hierarchy script
         run: |
+          pwd
           ls
           cd ../
-        
-      - name: Run hierarchy script
-        run: python heirarchy.py
+          pwd
+          ls
+          python heirarchy.py
       
       - name: Commit and push if changed
         run: |
