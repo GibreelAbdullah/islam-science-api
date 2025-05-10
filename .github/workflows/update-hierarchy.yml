@@ -4,7 +4,7 @@ on:
   push:
     branches: [ main, master ]
     paths-ignore:
-      - 'hierarchy.json'  # Avoid triggering the workflow when only the JSON file changes
+      - 'heirarchy.json'  # Avoid triggering the workflow when only the JSON file changes
 
 jobs:
   update-hierarchy:
@@ -24,12 +24,15 @@ jobs:
         with:
           python-version: '3.10'
       
+      - name: Install dependencies
+        run: pip install bs4
+      
       - name: Run hierarchy script
-        run: python hierarchy.py
+        run: python heirarchy.py
       
       - name: Commit and push if changed
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add hierarchy.json
+          git add heirarchy.json
           git diff --quiet && git diff --staged --quiet || (git commit -m "Update hierarchy.json [skip ci]" && git push)
