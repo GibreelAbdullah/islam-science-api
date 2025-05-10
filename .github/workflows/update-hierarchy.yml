@@ -27,6 +27,9 @@ jobs:
       - name: Install dependencies
         run: pip install bs4
       
+      - name: cd to scripts directory
+        run: cd islam-science-api
+        
       - name: Run hierarchy script
         run: python heirarchy.py
       
