@@ -8,7 +8,7 @@ def get_directory_structure(rootdir):
     # Get all first-level directories
     for dir_name in os.listdir(rootdir):
         dir_path = os.path.join(rootdir, dir_name)
-        if os.path.isdir(dir_path):
+        if os.path.isdir(dir_path) and dir_name != "images":
             structure[dir_name] = []
             
             # Get all second-level subdirectories
@@ -22,7 +22,8 @@ def get_directory_structure(rootdir):
                         soup = BeautifulSoup(html_file, "html.parser")
                         first_p = soup.find("p")
                         text = first_p.get_text(strip=True) if first_p else ""
-                        structure[dir_name].append(text)
+                        rel_path = os.path.relpath(subdir_path, rootdir)
+                        structure[dir_name].append({"key": text, "url": rel_path})
     return structure
 
 if __name__ == "__main__":
@@ -33,4 +34,4 @@ if __name__ == "__main__":
     dir_structure = get_directory_structure(os.path.join(root_directory, "islam-science"))
 
     with open("hierarchy.json", "w") as json_file:
-        json.dump(dir_structure, json_file, indent=None)
+        json.dump(dir_structure, json_file, indent=4)
