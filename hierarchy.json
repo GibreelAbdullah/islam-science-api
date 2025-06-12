@@ -1,34 +1,86 @@
 {
-    "resources": [
+    "personalities": [
         {
-            "key": "VIDEOS",
-            "url": "resources/videos.html"
+            "key": "Dr. MEHMET BULGEN",
+            "url": "personalities/dr._mehmet_bulgen.html"
         },
         {
-            "key": "COURSES",
-            "url": "resources/courses.html"
+            "key": "USTHAD ARNOLD YASIN MOL",
+            "url": "personalities/usthad_arnold_yasin_mol.html"
         },
         {
-            "key": "SOCIETIES & RESEARCH GROUPS",
-            "url": "resources/societies_&_research_groups.html"
+            "key": "Dr. SOHAIB SAEED",
+            "url": "personalities/shaykh_dr._sohaib_saeed.html"
         },
         {
-            "key": "BOOKS",
-            "url": "resources/books.html"
+            "key": "PROFESSOR SYED MUHAMMAD NAQUIB AL-ATTAS",
+            "url": "personalities/professor_syed_muhammad_naquib_al_attas.html"
         },
         {
-            "key": "ARTICLES",
-            "url": "resources/articles.html"
+            "key": "SHAYKH HAMZA KARAMALI",
+            "url": "personalities/shaykh_hamza_karamali.html"
+        },
+        {
+            "key": "SHAYKH NUH KELLER",
+            "url": "personalities/shaykh_nuh_keller.html"
+        },
+        {
+            "key": "SHAYKH FARAZ A. KHAN",
+            "url": "personalities/shaykh_faraz_a._khan.html"
+        },
+        {
+            "key": "Dr. AASIM I. PADELA",
+            "url": "personalities/dr._aasim_padela.html"
+        },
+        {
+            "key": "Dr. DAVID SOLOMON JALAJEL",
+            "url": "personalities/dr._david_solomon_jalajel.html"
+        },
+        {
+            "key": "Dr. EDWARD OMAR MOAD",
+            "url": "personalities/dr._edward_omar_moad.html"
+        },
+        {
+            "key": "Dr. MOHAMMED BASIL ALTAIE",
+            "url": "personalities/dr._basil_altaie.html"
+        },
+        {
+            "key": "SHAYKH MUSA FURBER",
+            "url": "personalities/shaykh_musa_furber.html"
+        },
+        {
+            "key": "Dr. OSMAN BAKAR",
+            "url": "personalities/dr._osman_bakar.html"
+        },
+        {
+            "key": "MUFTI MUNTASIR ZAMAN",
+            "url": "personalities/mufti_muntasir_zaman.html"
+        },
+        {
+            "key": "Dr. YAQUB CHAUDHARY",
+            "url": "personalities/dr._yaqoub_chaudhary.html"
+        },
+        {
+            "key": "Dr. NAZIF MUHTARO\u011eLU",
+            "url": "personalities/dr._nazif_muhtaroglu.html"
+        },
+        {
+            "key": "Dr. SAFARUK CHOWDHURY",
+            "url": "personalities/dr._safaruk_chowdhury.html"
+        },
+        {
+            "key": "SHAYKH RAFAQAT RASHID",
+            "url": "personalities/shaykh_dr._rafaqat_rashid.html"
+        },
+        {
+            "key": "Dr. SHOAIB AHMED MALIK",
+            "url": "personalities/dr._shoaib_ahmed_malik.html"
         }
     ],
     "fundamentals": [
         {
-            "key": "WHY ISLAM IS TRUE",
-            "url": "fundamentals/why_islam_is_true.html"
-        },
-        {
-            "key": "LIMITATIONS OF SCIENCE",
-            "url": "fundamentals/limitations_of_science.html"
+            "key": "NEGATIVE IMPACTS OF TECHNOLOGY",
+            "url": "fundamentals/negative_impacts_of_technology.html"
         },
         {
             "key": "THE KALAM TRADITION",
@@ -43,20 +95,16 @@
             "url": "fundamentals/occasionalism.html"
         },
         {
-            "key": "NEGATIVE IMPACTS OF TECHNOLOGY",
-            "url": "fundamentals/negative_impacts_of_technology.html"
-        },
-        {
-            "key": "SPRITUALITY AS A SOLUTION",
-            "url": "fundamentals/spirituality_as_a_solution.html"
+            "key": "PROOF FOR GOD'S EXISTENCE",
+            "url": "fundamentals/proofs_for_god's_existence.html"
         },
         {
             "key": "BASICS OF ISLAM: STUDY RESOURCES",
             "url": "fundamentals/basics_of_islam_study_resources.html"
         },
         {
-            "key": "PROOF FOR GOD'S EXISTENCE",
-            "url": "fundamentals/proofs_for_god's_existence.html"
+            "key": "SPRITUALITY AS A SOLUTION",
+            "url": "fundamentals/spirituality_as_a_solution.html"
         },
         {
             "key": "PHILOSOPHY OF SCIENCE",
@@ -67,100 +115,30 @@
             "url": "fundamentals/sustainability_and_solutions.html"
         },
         {
+            "key": "LIMITATIONS OF SCIENCE",
+            "url": "fundamentals/limitations_of_science.html"
+        },
+        {
             "key": "SCIENTISM",
             "url": "fundamentals/scientism.html"
         },
         {
             "key": "PHILOSOPHY OF TECHNOLOGY",
             "url": "fundamentals/philosophy_of_technology.html"
-        }
-    ],
-    "personalities": [
-        {
-            "key": "USTHAD ARNOLD YASIN MOL",
-            "url": "personalities/usthad_arnold_yasin_mol.html"
         },
         {
-            "key": "Dr. NAZIF MUHTARO\u011eLU",
-            "url": "personalities/dr._nazif_muhtaroglu.html"
-        },
-        {
-            "key": "SHAYKH RAFAQAT RASHID",
-            "url": "personalities/shaykh_dr._rafaqat_rashid.html"
-        },
-        {
-            "key": "Dr. OSMAN BAKAR",
-            "url": "personalities/dr._osman_bakar.html"
-        },
-        {
-            "key": "SHAYKH FARAZ A. KHAN",
-            "url": "personalities/shaykh_faraz_a._khan.html"
-        },
-        {
-            "key": "Dr. SAFARUK CHOWDHURY",
-            "url": "personalities/dr._safaruk_chowdhury.html"
-        },
-        {
-            "key": "Dr. MEHMET BULGEN",
-            "url": "personalities/dr._mehmet_bulgen.html"
-        },
-        {
-            "key": "MUFTI MUNTASIR ZAMAN",
-            "url": "personalities/mufti_muntasir_zaman.html"
-        },
-        {
-            "key": "Dr. SOHAIB SAEED",
-            "url": "personalities/shaykh_dr._sohaib_saeed.html"
-        },
-        {
-            "key": "PROFESSOR SYED MUHAMMAD NAQUIB AL-ATTAS",
-            "url": "personalities/professor_syed_muhammad_naquib_al_attas.html"
-        },
-        {
-            "key": "SHAYKH MUSA FURBER",
-            "url": "personalities/shaykh_musa_furber.html"
-        },
-        {
-            "key": "Dr. DAVID SOLOMON JALAJEL",
-            "url": "personalities/dr._david_solomon_jalajel.html"
-        },
-        {
-            "key": "SHAYKH HAMZA KARAMALI",
-            "url": "personalities/shaykh_hamza_karamali.html"
-        },
-        {
-            "key": "SHAYKH NUH KELLER",
-            "url": "personalities/shaykh_nuh_keller.html"
-        },
-        {
-            "key": "Dr. AASIM I. PADELA",
-            "url": "personalities/dr._aasim_padela.html"
-        },
-        {
-            "key": "Dr. SHOAIB AHMED MALIK",
-            "url": "personalities/dr._shoaib_ahmed_malik.html"
-        },
-        {
-            "key": "Dr. MOHAMMED BASIL ALTAIE",
-            "url": "personalities/dr._basil_altaie.html"
-        },
-        {
-            "key": "Dr. YAQUB CHAUDHARY",
-            "url": "personalities/dr._yaqoub_chaudhary.html"
-        },
-        {
-            "key": "Dr. EDWARD OMAR MOAD",
-            "url": "personalities/dr._edward_omar_moad.html"
+            "key": "WHY ISLAM IS TRUE",
+            "url": "fundamentals/why_islam_is_true.html"
         }
     ],
     "main_topics": [
         {
-            "key": "KALAM ATOMISM & QUANTUM MECHANICS",
-            "url": "main_topics/kalam_atomism_&_quantum_mechanics.html"
+            "key": "ISLAM & ETHICAL USE OF TECHNOLOGY",
+            "url": "main_topics/islam_&_ethical_use_of_technology.html"
         },
         {
-            "key": "ISLAM & EVOLUTION",
-            "url": "main_topics/islam_&_evolution.html"
+            "key": "ISLAM & EXTRATERRESTRIAL LIFE",
+            "url": "main_topics/islam_&_extraterrestrial_life.html"
         },
         {
             "key": "ISLAM & VIRTUAL WORLDS",
@@ -171,28 +149,50 @@
             "url": "main_topics/quran_&_scientific_miracles.html"
         },
         {
+            "key": "KALAM ATOMISM & QUANTUM MECHANICS",
+            "url": "main_topics/kalam_atomism_&_quantum_mechanics.html"
+        },
+        {
             "key": "ISLAM, AI & CONSCIOUSNESS",
             "url": "main_topics/islam_&_ai_-_consciousness.html"
-        },
-        {
-            "key": "FIQH & AI",
-            "url": "main_topics/fiqh_&_ai.html"
-        },
-        {
-            "key": "ISLAM & ETHICAL USE OF TECHNOLOGY",
-            "url": "main_topics/islam_&_ethical_use_of_technology.html"
         },
         {
             "key": "HEIGHT OF PROPHET ADAM - SCIENCE & HADITH",
             "url": "main_topics/height_of_prophet_adam_-_science_&_hadith.html"
         },
         {
+            "key": "ISLAM & EVOLUTION",
+            "url": "main_topics/islam_&_evolution.html"
+        },
+        {
             "key": "ISLAM & BIOETHICS",
             "url": "main_topics/islam_&_bioethics.html"
         },
         {
-            "key": "ISLAM & EXTRATERRESTRIAL LIFE",
-            "url": "main_topics/islam_&_extraterrestrial_life.html"
+            "key": "FIQH & AI",
+            "url": "main_topics/fiqh_&_ai.html"
+        }
+    ],
+    "resources": [
+        {
+            "key": "VIDEOS",
+            "url": "resources/videos.html"
+        },
+        {
+            "key": "SOCIETIES & RESEARCH GROUPS",
+            "url": "resources/societies_&_research_groups.html"
+        },
+        {
+            "key": "COURSES",
+            "url": "resources/courses.html"
+        },
+        {
+            "key": "ARTICLES",
+            "url": "resources/articles.html"
+        },
+        {
+            "key": "BOOKS",
+            "url": "resources/books.html"
         }
     ]
 }
