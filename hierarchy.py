@@ -24,7 +24,6 @@ def get_directory_structure(rootdir):
                 soup = BeautifulSoup(html_file, "html.parser")
                 grid_div = soup.find("div", class_="grid")
                 links = grid_div.find_all("a") if grid_div else []
-                first_p = soup.find("p")
 
                 for link in links:
                     text = link.get_text(strip=True)
