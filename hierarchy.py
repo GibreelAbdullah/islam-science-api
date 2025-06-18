@@ -11,8 +11,8 @@ def get_directory_structure(rootdir):
         links = grid_div.find_all("a") if grid_div else []
         for link in links:
             text = link.get_text(strip=True)
-            structure[text] = []
             href = link.get("href", "")
+            structure[text] = {"url":href,"children":[]}
             href = href.replace("/islam-science/", "", 1) + ".html"
             files_list.append({"href": href, "title": text})
             
@@ -28,7 +28,7 @@ def get_directory_structure(rootdir):
                 for link in links:
                     text = link.get_text(strip=True)
                     rel_path = link.get("href", "")
-                    structure[dir_name["title"]].append({"key": text, "url": rel_path})
+                    structure[dir_name["title"]]["children"].append({"key": text, "url": rel_path})
     return structure
 
 if __name__ == "__main__":
